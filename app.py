@@ -1,8 +1,9 @@
 import streamlit as st
 import pandas as pd
-from surprise import Dataset, Reader, KNNBasic
 from surprise.model_selection import train_test_split
 from surprise import accuracy
+from surprise import Dataset, Reader, KNNBasic
+
 
 # Header aplikasi
 st.title("IMDb Movie Recommender System")
